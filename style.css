@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url();
+}
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-black-chinese-steak-gourmet-meat-taobao-banner-image_175092.jpg);
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.nav{
+     display: flex;
+     background-color: rgb(0, 0, 0, 0.4);
+     color: white;
+     justify-content: space-between;
+     height: 50px;
+     align-items: center;
+     text-transform: uppercase;
+     position: fixed;
+     width: 100%;
+     flex-wrap: wrap;
+}
+.logo{
+    padding-left: 50px;
+}
+.contact button{
+    background-color: transparent;
+    margin-right: 50px;
+    height: 35px;
+    width: 130px;
+    border: 3px solid white;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 120%;
+    align-items: center;
+}
+.contact h6{
+    padding-bottom: 5px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding-left: 32px;
+    text-align: center;
+}
+.logo h1{
+    color: white;
+}
+.logo a{
+    text-decoration: none;
+}
+.links a:hover{
+    color: yellowgreen;
+    font-weight: 600;
+    transition-duration: .5s;
+    text-decoration: underline solid red;
+    transition-duration: .5s;
+}
+.contact button:hover{
+    background-color: yellowgreen;
+    border: 0px;
+    color: blue;
+    transition-duration: .5s;
+}
+.heading{
+    padding-top: 80px;
+}
+.heading h1{
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+.sub{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.sub h2{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+.sub-button button{
+    height: 50px;
+    width: 130px;
+    background-color: black;
+    border: 4px solid white;
+    color: white;
+    font-size: 120%;
+    font-weight: 700;
+    border-radius: 10%;
+}
+.sub{
+    padding-top: 10px;
+}
+.sub-button{
+    padding-top: 10px;
+}
+.services{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.sub-button button:hover{
+    background-color: yellowgreen;
+    border: 0px;
+    color: blue;
+    transition-duration: .5s;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card1{
+    border: 4px solid #8b5e83;
+    height: 300px;
+    width: 320px;
+    border-radius: 7%;
+    background-color: #d6b0b1;
+}
+.card2{
+    border: 4px solid #8b5e83;
+    height: 300px;
+    width: 320px;
+    border-radius: 7%;
+    background-color: #d6b0b1;
+}
+.card3{
+    border: 4px solid #8b5e83;
+    height: 300px;
+    width: 320px;
+    border-radius: 7%;
+    background-color: #d6b0b1;
+}
+
+.card1 img{
+    height: 100px;
+    width: 150px;
+    background-color: #d6b0b1;
+}
+.card3 h3{
+    padding-top: 8px;
+}
+.card2 img{
+    height: 100px;
+    width: 150px;
+    background-color: #d6b0b1;
+}
+.card2 h3{
+    padding-top: 8px
+}
+.card3 img{
+    height: 100px;
+    width: 130px;
+    background-color: #d6b0b1;
+}
+.card1 h3{
+    padding-top: 8px;
+}
+.clients{
+    background-image: url(https://www.cptedtraining.net/wp-content/uploads/2016/10/background-clients.jpg);
+    height: 100px;
+    background-position: center;
+    width: 100%;;    
+    background-size: cover;
+    height: 230px;
+    margin-bottom: 200px;
+    
+}
+.clients h1{
+    padding-left: 400px;
+    padding-top: 25px;
+    color: black;
+}
+.client-img img{
+    height: 120px;
+    
+}
+.client-img{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding-left: 30px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .header{
+        height: 600px;
+    }
+    .nav{
+        width: 20%;
+        position: static;
+        padding-bottom: 5px;
+        align-items: center;
+        padding-top: 0;
+    }
+    .nav button{
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+    .nav a{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .heading{
+        padding-top: 150px;
+    }
+    .sub h2{
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .sub{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .card1, .card2{
+        margin-bottom: 18px;
+    }
+    .clients img{
+       width: 100%;
+    }
+    .clients h1{
+        padding-left: 0px;
+        text-align: center;
+    }
+    .client-img{
+        margin-left: 0px;
+        width: 100px;
+        margin-right: 0;
+        justify-content:start;
+        height: 100px;
+
+    }
+}
